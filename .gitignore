@@ -29,14 +29,11 @@
 #other files and folders
 .DS_Store
 nbproject
-*.sql
-*.sql.gz
 *.bk
 *.bak
 *.log
 *.log2
 *.ini
-*.gz
 *.mysql
 *.mysql.gz
 /nbproject/private/
