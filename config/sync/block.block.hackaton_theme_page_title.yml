@@ -1,6 +1,6 @@
 uuid: 65b5fac9-c40e-4d09-8bd7-7805aa65412f
 langcode: es
-status: true
+status: false
 dependencies:
   theme:
     - hackaton_theme

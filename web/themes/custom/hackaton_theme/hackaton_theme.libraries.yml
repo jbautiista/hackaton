@@ -1,6 +1,8 @@
-solo-subtheme-global-custom:
+solo-subtheme-global:
   css:
     theme:
+      css/header.css: {}
+      css/footer.css: {}
       css/solo-subtheme-style.css: {}
       css/enterate.css: {}
 

@@ -1,0 +1,25 @@
+uuid: 8fe39661-972e-441b-9a0c-4b5e6df097c5
+langcode: es
+status: true
+dependencies:
+  config:
+    - system.menu.redes-sociales
+  module:
+    - system
+  theme:
+    - hackaton_theme
+id: hackaton_theme_redessociales
+theme: hackaton_theme
+region: footer_third
+weight: 0
+provider: null
+plugin: 'system_menu_block:redes-sociales'
+settings:
+  id: 'system_menu_block:redes-sociales'
+  label: Síguenos
+  label_display: visible
+  provider: system
+  level: 1
+  depth: null
+  expand_all_items: false
+visibility: {  }

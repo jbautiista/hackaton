@@ -1,0 +1,146 @@
+/* Main footer container styles */
+.footer-container {
+    background-color: rgb(15 56 90 / 1); /* Assuming dark background from the image */
+    color: #fff;
+    padding: 2rem 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.footer-container-inner {
+    max-width: 1400px !important; /* Ensuring it matches the design */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.footer-container-inner .footer-box-inner {
+    padding: 1rem;
+    background-color: rgb(15 56 90 / 1); /* Slightly transparent white for contrast */
+    border-radius: 8px;
+}
+
+/* POLI header styles */
+#block-hackaton-theme-footerleft h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+/* Systems list styles */
+#block-hackaton-theme-footerleft ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 1.5rem 0;
+}
+
+#block-hackaton-theme-footerleft li {
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+}
+
+/* Vida a Poli section */
+#block-hackaton-theme-footerleft h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+/* Table styles for Enlaces/Síguenos */
+#block-hackaton-theme-footerleft table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+#block-hackaton-theme-footerleft th {
+    text-align: left;
+    padding-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+#block-hackaton-theme-footerleft td {
+    padding: 0.25rem 0;
+    vertical-align: top;
+}
+
+/* Menu styles for footer links */
+.block__title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.navigation__menubar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav__menu-item-footer,
+.nav__menu-item-redes-sociales {
+    margin-bottom: 0.5rem;
+}
+
+.nav__menu-link-footer,
+.nav__menu-link-redes-sociales {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav__menu-link-footer:hover,
+.nav__menu-link-redes-sociales:hover {
+    color: #ccc; /* Lighter color on hover */
+}
+
+/* Button styles */
+button {
+    background-color: rgb(15 56 90 / 1);
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background-color: rgb(15 56 90 / 1);
+    color: #000;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .footer-container-inner {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-box {
+        margin-bottom: 1.5rem;
+    }
+}
+
+
+#footer-box-second .navigation__menubar a, #footer-box-third .navigation__menubar a {
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(15 56 90 / 1);
+}
+
+#footer-box-second .navigation__menubar, #footer-box-third .navigation__menubar {
+    display: block;
+    background-color: rgb(15 56 90 / 1);
+
+}
+
+
+#footer-box-second h2, #footer-box-third h2 {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}

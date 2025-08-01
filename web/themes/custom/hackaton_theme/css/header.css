@@ -1,0 +1,13 @@
+/* Main footer container styles */
+#header {
+    margin: 0 auto;
+    background-color: rgb(15 56 90 / 1); /* Assuming dark background from the image */
+    color: #fff;
+    padding: 2rem 0;
+    font-family: 'Arial', sans-serif;
+}
+
+#header #header-inner {
+    max-width: 1400px;
+
+}
