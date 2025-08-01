@@ -1,0 +1,23 @@
+uuid: 3d4bf3f6-a1b2-4302-b282-8ff0c7f6ecaf
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tiempo_del_podcast
+    - node.type.podcast
+id: node.podcast.field_tiempo_del_podcast
+field_name: field_tiempo_del_podcast
+entity_type: node
+bundle: podcast
+label: 'Tiempo del podcast'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

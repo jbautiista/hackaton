@@ -36,6 +36,7 @@
         "drupal/profile": "^1.12",
         "drupal/restui": "^1.22",
         "drupal/seckit": "^2.0",
+        "drupal/selective_better_exposed_filters": "^3.0",
         "drupal/simple_oauth": "^6.0",
         "drupal/solo": "^1.0",
         "drupal/taxonomy_manager": "^2.0",

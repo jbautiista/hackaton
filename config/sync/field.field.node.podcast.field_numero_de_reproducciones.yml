@@ -1,0 +1,23 @@
+uuid: ac130d6e-1f14-4be6-b506-be0f13da9034
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_numero_de_reproducciones
+    - node.type.podcast
+id: node.podcast.field_numero_de_reproducciones
+field_name: field_numero_de_reproducciones
+entity_type: node
+bundle: podcast
+label: 'Numero de reproducciones'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

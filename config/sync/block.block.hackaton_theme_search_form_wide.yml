@@ -1,0 +1,23 @@
+uuid: 3bb1f779-113a-41cd-ad41-8d2e03d4a74c
+langcode: es
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - hackaton_theme
+_core:
+  default_config_hash: pbbed0hdqGDF-_QWVVTWRAwgDIotFuAvWH5mWUZu0fA
+id: hackaton_theme_search_form_wide
+theme: hackaton_theme
+region: highlighted
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Formulario de búsqueda (ancho)'
+  label_display: '0'
+  provider: search
+  page_id: null
+visibility: {  }
