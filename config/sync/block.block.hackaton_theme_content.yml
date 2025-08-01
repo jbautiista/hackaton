@@ -1,0 +1,22 @@
+uuid: 40308e3a-2bef-469a-a782-489422302ded
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - hackaton_theme
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: hackaton_theme_content
+theme: hackaton_theme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Contenido principal de la página'
+  label_display: '0'
+  provider: system
+visibility: {  }

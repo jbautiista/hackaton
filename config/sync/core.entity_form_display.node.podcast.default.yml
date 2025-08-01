@@ -1,0 +1,88 @@
+uuid: ec929df9-2a3f-4baf-b6af-207477ed7db7
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.podcast.field_body
+    - field.field.node.podcast.field_categoria
+    - field.field.node.podcast.field_fecha
+    - field.field.node.podcast.field_imagen
+    - field.field.node.podcast.field_numero_de_reproducciones
+    - field.field.node.podcast.field_tiempo_del_podcast
+    - node.type.podcast
+  module:
+    - datetime
+    - media_library
+    - text
+id: node.podcast.default
+targetEntityType: node
+bundle: podcast
+mode: default
+content:
+  field_body:
+    type: text_textarea
+    weight: 2
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_categoria:
+    type: entity_reference_autocomplete
+    weight: 3
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_fecha:
+    type: datetime_default
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_imagen:
+    type: media_library_widget
+    weight: 1
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_numero_de_reproducciones:
+    type: number
+    weight: 6
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_tiempo_del_podcast:
+    type: number
+    weight: 5
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 7
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  path: true
+  promote: true
+  sticky: true
+  uid: true

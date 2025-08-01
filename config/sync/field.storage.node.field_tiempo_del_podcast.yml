@@ -1,0 +1,20 @@
+uuid: 95d2174a-fbd6-4857-ae9c-fe32ac6240c7
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_tiempo_del_podcast
+field_name: field_tiempo_del_podcast
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
