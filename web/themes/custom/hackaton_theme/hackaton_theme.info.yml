@@ -4,7 +4,8 @@ base theme: solo
 core_version_requirement: ^10 || ^11
 description: 'Solo Sub-theme is an empty theme for your customization.'
 libraries:
-  - solo_subtheme/solo-subtheme-global
+  - hackaton_theme/solo-subtheme-global-custom
+  # - solo_subtheme/test-api
 
 #Regions
 regions:

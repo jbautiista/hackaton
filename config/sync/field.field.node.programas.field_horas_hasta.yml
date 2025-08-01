@@ -1,0 +1,19 @@
+uuid: 6515639e-a5df-40ce-ba77-5c13045f9bb6
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_horas_hasta
+    - node.type.programas
+id: node.programas.field_horas_hasta
+field_name: field_horas_hasta
+entity_type: node
+bundle: programas
+label: 'Horas hasta'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
