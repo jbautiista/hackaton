@@ -1,0 +1,11 @@
+uuid: c0dbc9dc-c268-4df0-a71b-76d5f790857e
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.categorias_de_podcast
+id: taxonomy_term.categorias_de_podcast
+target_entity_type_id: taxonomy_term
+target_bundle: categorias_de_podcast
+default_langcode: site_default
+language_alterable: false
