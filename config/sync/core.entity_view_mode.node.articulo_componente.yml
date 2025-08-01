@@ -1,0 +1,11 @@
+uuid: b73ed551-68ec-4d10-8f91-504a5f676621
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.articulo_componente
+label: 'Articulo card'
+description: null
+targetEntityType: node
+cache: true

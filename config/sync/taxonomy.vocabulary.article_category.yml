@@ -1,0 +1,9 @@
+uuid: 3dca4725-f565-42d6-ba35-e7ac9599416d
+langcode: es
+status: true
+dependencies: {  }
+name: 'Categoria articulo'
+vid: article_category
+description: 'Vocabulario sobre las categorías de los artículos.'
+weight: 0
+new_revision: false

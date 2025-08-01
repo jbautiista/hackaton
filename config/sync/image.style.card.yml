@@ -1,0 +1,15 @@
+uuid: 4522ab44-96e5-41fd-a23e-51260eefa91b
+langcode: es
+status: true
+dependencies: {  }
+name: card
+label: Card
+effects:
+  43dde0dc-d096-4375-b136-a649324901a7:
+    uuid: 43dde0dc-d096-4375-b136-a649324901a7
+    id: image_crop
+    weight: 1
+    data:
+      width: 350
+      height: 192
+      anchor: center-center

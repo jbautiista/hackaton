@@ -46,3 +46,6 @@ predefined_current_theme: midnight_and_twilight|solo-midnight-whispers
 theme_category: midnight_and_twilight
 color_coded_system_tabs: 1
 site_breadcrumb_scroll: 1
+count_top: 0
+count_bottom: 0
+count_footer: 0
