@@ -73,3 +73,4 @@ content:
 hidden:
   langcode: true
   links: true
+  node_read_time: true

@@ -20,16 +20,16 @@
 }
 
 .taxonomy-term-entity {
-  background-color: #ccf0d6;
-  color: #0c7044;
+  background-color: #a6ce38;
+  color: #0f385a;
   font-weight: bold;
-  padding: 0.4rem 0.8rem;
-  border-radius: 0 0 8px 8px;
+  padding: 0.01rem 0.4rem;
+  border-radius: 0 0 8px;
   position: absolute;
   top: 0;
   left: 0;
   margin: 0;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
 }
 
 .field--name-field-image img {
@@ -42,14 +42,16 @@
 
 .field--name-node-title h2 {
   font-size: 1.1rem;
-  margin: 1rem;
+  margin: 0 1rem;
   color: #1c1c1c;
+  line-height: 1.5rem;
 }
 
 .field--name-body p {
   font-size: 0.9rem;
-  margin: 0 1rem 1rem;
+  margin: 0 1rem ;
   color: #444;
+  line-height: 1.5rem;
 }
 
 .field--name-node-post-date,
@@ -68,8 +70,8 @@
 .field--name-node-link a {
   display: inline-block;
   background-color: #002d72;
-  color: white;
-  padding: 0.5rem 1rem;
+  color: white !important;
+  padding: 0.2rem 1rem;
   border-radius: 6px;
   text-decoration: none;
   font-size: 0.85rem;
@@ -95,4 +97,75 @@
   .view-content {
     grid-template-columns: 1fr;
   }
+}
+
+
+
+/*Buscador*/
+/* Contenedor de los botones */
+/* Contenedor de los botones en una sola fila con scroll horizontal */
+#edit-field-category-target-id {
+  display: flex;
+  flex-wrap: nowrap; /* Una sola fila */
+  overflow-x: auto; /* Scroll si se desbordan */
+  gap: 0.75rem;
+  padding-bottom: 0.5rem;
+  scrollbar-width: none; /* Firefox */
+}
+#edit-field-category-target-id::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+/* Oculta el input de tipo radio */
+#edit-field-category-target-id input[type="radio"] {
+  display: none;
+}
+
+/* Estilo base del label que funciona como botón */
+#edit-field-category-target-id label.option {
+  white-space: nowrap;
+  padding: 0.1rem 0.5rem;
+  border: 1px solid #0c2e4e;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: 500;
+  color: #0c2e4e;
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+  font-size: 12px;
+}
+
+/* Estilo del botón activo */
+#edit-field-category-target-id input[type="radio"]:checked + label.option {
+  background-color: #0c2e4e;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* Ocultar botón de aplicar si hay uno */
+input[type="submit"],
+.js-form-submit {
+  display: none !important;
+}
+
+.form-radios,
+.form-checkboxes {
+  display: inline-flex;
+}
+.bef-exposed-form .form--inline .form-item {
+  float: none;
+  margin: 0 0.3rem;
+}
+form .form--inline {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Header */
+
+.view-header{
+  justify-content: center;
+  display: flex;
+  margin: 1rem;
 }

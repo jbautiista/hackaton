@@ -90,8 +90,8 @@ module:
   workflows: 0
   ds: 1
   eca_form: 1
-  ds_extras: 2
   selective_better_exposed_filters: 1
+  ds_extras: 2
   password_policy: 10
   views: 10
   standard: 1000
