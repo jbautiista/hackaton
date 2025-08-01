@@ -1,8 +1,9 @@
-uuid: ae1edd70-8c31-4f19-9eb3-5ccf85efe48c
-langcode: es
+uuid: 0f9f5a28-bb1a-4e65-8f06-f44bc99c6e78
+langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.full
     - field.field.node.page.body
     - field.field.node.page.layout_builder__layout
     - node.type.page
@@ -14,15 +15,15 @@ dependencies:
 third_party_settings:
   layout_builder:
     enabled: true
-    allow_custom: false
+    allow_custom: true
     sections:
       -
         layout_id: layout_onecol
         layout_settings:
           label: ''
         components:
-          52a5c7fb-cecc-4847-bc49-346b07b6633f:
-            uuid: 52a5c7fb-cecc-4847-bc49-346b07b6633f
+          3646674f-c300-412f-83fd-a47035af05f7:
+            uuid: 3646674f-c300-412f-83fd-a47035af05f7
             region: content
             configuration:
               id: 'field_block:node:page:body'
@@ -36,8 +37,8 @@ third_party_settings:
                 third_party_settings: {  }
             weight: 0
             additional: {  }
-          01e8db07-9d68-43e8-a75b-4485410d5a44:
-            uuid: 01e8db07-9d68-43e8-a75b-4485410d5a44
+          5e7b068d-2c27-4b1b-8f0a-9de4246b15e2:
+            uuid: 5e7b068d-2c27-4b1b-8f0a-9de4246b15e2
             region: content
             configuration:
               id: 'extra_field_block:node:page:links'
@@ -49,10 +50,10 @@ third_party_settings:
         third_party_settings: {  }
 _core:
   default_config_hash: M_Y8L5tfmhx7DR143E05YyZSpvgil6VFvqcfBWykalg
-id: node.page.default
+id: node.page.full
 targetEntityType: node
 bundle: page
-mode: default
+mode: full
 content:
   body:
     type: text_default

@@ -1,0 +1,43 @@
+uuid: 75a24424-11f3-45a5-9e79-65e064b1979a
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - node.type.contacto
+  module:
+    - layout_builder
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          3fa2f245-7e3a-47da-8b19-31276962edab:
+            uuid: 3fa2f245-7e3a-47da-8b19-31276962edab
+            region: content
+            configuration:
+              id: 'extra_field_block:node:contacto:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+id: node.contacto.full
+targetEntityType: node
+bundle: contacto
+mode: full
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

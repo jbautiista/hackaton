@@ -1,0 +1,25 @@
+uuid: d5c2652d-f5dd-419a-ab2b-4240009dc191
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0a4d65f4-555c-42f1-a740-5c513af66c73'
+  module:
+    - block_content
+  theme:
+    - solo
+id: solo_informaciondecontacto
+theme: solo
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:0a4d65f4-555c-42f1-a740-5c513af66c73'
+settings:
+  id: 'block_content:0a4d65f4-555c-42f1-a740-5c513af66c73'
+  label: 'Información de contacto'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

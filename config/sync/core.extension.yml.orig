@@ -58,8 +58,11 @@ module:
   jquery_ui: 0
   jsonapi: 0
   language: 0
+<<<<<<< HEAD
+=======
   layout_builder: 0
   layout_builder_expose_all_field_blocks: 0
+>>>>>>> b614c3df740f67d95b50e00a34bc85c35593b1f3
   layout_discovery: 0
   link: 0
   locale: 0
