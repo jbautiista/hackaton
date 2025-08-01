@@ -1,0 +1,9 @@
+uuid: 534e844c-18b4-4456-b194-ee4e8f953f01
+langcode: es
+status: true
+dependencies: {  }
+name: 'Categorías de podcast'
+vid: categorias_de_podcast
+description: null
+weight: 0
+new_revision: false
