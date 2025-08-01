@@ -56,3 +56,5 @@ hidden:
   comment: true
   field_category: true
   langcode: true
+  node_read_time: true
+  reading_time: true

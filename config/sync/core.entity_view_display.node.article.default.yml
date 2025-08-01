@@ -73,3 +73,5 @@ content:
     region: content
 hidden:
   langcode: true
+  node_read_time: true
+  reading_time: true

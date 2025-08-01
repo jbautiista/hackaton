@@ -9,6 +9,11 @@ dependencies:
   module:
     - media_library
     - text
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
 id: block_content.reproductor.default
 targetEntityType: block_content
 bundle: reproductor
