@@ -38,6 +38,7 @@
         "drupal/simple_oauth": "^6.0",
         "drupal/solo": "^1.0",
         "drupal/taxonomy_manager": "^2.0",
+        "drupal/views_fieldsets": "^4.0",
         "drupal/webform": "^6.3@beta",
         "drush/drush": "^13.6"
     },
