@@ -1,0 +1,22 @@
+uuid: 20ac574d-26e8-4577-83c3-54e9cd2eab71
+langcode: es
+status: true
+dependencies:
+  theme:
+    - hackaton_theme
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: hackaton_theme_primary_local_tasks
+theme: hackaton_theme
+region: highlighted
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Solapas principales'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

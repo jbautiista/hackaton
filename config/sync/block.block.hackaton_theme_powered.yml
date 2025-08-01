@@ -1,0 +1,22 @@
+uuid: b065131e-2a28-4b43-a942-48e35cc6aae4
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - hackaton_theme
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: hackaton_theme_powered
+theme: hackaton_theme
+region: highlighted
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Funciona con Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

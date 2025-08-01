@@ -1,0 +1,22 @@
+uuid: f532f124-fa8d-4a3b-868e-b910d9b714d8
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - hackaton_theme
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: hackaton_theme_breadcrumbs
+theme: hackaton_theme
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Enlaces de ayuda a la navegación'
+  label_display: '0'
+  provider: system
+visibility: {  }
