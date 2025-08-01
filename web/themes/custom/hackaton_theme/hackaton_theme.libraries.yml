@@ -1,8 +1,12 @@
-solo-subtheme-global:
+solo-subtheme-global-custom:
   css:
     theme:
       css/solo-subtheme-style.css: {}
       css/enterate.css: {}
 
   js:
-    js/solo-subtheme-script.js: {}
+    js/solo-subtheme-script-custom.js: {}
+  dependencies:
+    - core/drupal
+    - core/once
+

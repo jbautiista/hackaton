@@ -1,0 +1,19 @@
+uuid: 2229ab51-c529-45cf-b838-6c5107f32ede
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hora_desde
+    - node.type.programas
+id: node.programas.field_hora_desde
+field_name: field_hora_desde
+entity_type: node
+bundle: programas
+label: 'Hora desde'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

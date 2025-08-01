@@ -1,0 +1,24 @@
+uuid: 6b81d42f-9bd9-4dc1-aa88-70449e013a97
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sobre_el_programa
+    - filter.format.basic_html
+    - node.type.programas
+  module:
+    - text
+id: node.programas.field_sobre_el_programa
+field_name: field_sobre_el_programa
+entity_type: node
+bundle: programas
+label: 'Sobre el programa'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text_long
