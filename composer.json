@@ -34,6 +34,7 @@
         "drupal/restui": "^1.22",
         "drupal/seckit": "^2.0",
         "drupal/simple_oauth": "^6.0",
+        "drupal/solo": "^1.0",
         "drush/drush": "^13.6"
     },
     "conflict": {

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7b4c51354a841660165779764a33edc1",
+    "content-hash": "e5f83a5f9c29c19cc4b2ce9f9c7e9386",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2855,6 +2855,52 @@
             "homepage": "https://www.drupal.org/project/simple_oauth",
             "support": {
                 "source": "https://git.drupalcode.org/project/simple_oauth"
+            }
+        },
+        {
+            "name": "drupal/solo",
+            "version": "1.0.23",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/solo.git",
+                "reference": "1.0.23"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/solo-1.0.23.zip",
+                "reference": "1.0.23",
+                "shasum": "af14f831877c9cac03ac601849468473658533f0"
+            },
+            "require": {
+                "drupal/core": "^10.1 || ^11"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.23",
+                    "datestamp": "1753072427",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Alaa Haddad (alaahaddad.com)",
+                    "homepage": "https://www.drupal.org/u/flashwebcenter",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Speed, Elegance & Ease of Development and Use.",
+            "homepage": "https://drupal.org/project/solo",
+            "support": {
+                "source": "https://git.drupalcode.org/project/solo",
+                "issues": "https://drupal.org/project/issues/solo"
             }
         },
         {

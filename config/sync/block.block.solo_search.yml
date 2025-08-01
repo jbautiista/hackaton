@@ -1,0 +1,23 @@
+uuid: 267e7f6f-3850-4bae-a5bb-c739f368d6f4
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - solo
+_core:
+  default_config_hash: '-uBUhgGLkUTF0OZkydDUtCfmI7q1m5IxxsCoPDej5uw'
+id: solo_search
+theme: solo
+region: sidebar_second
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  label_display: '0'
+  provider: search
+  page_id: null
+visibility: {  }
