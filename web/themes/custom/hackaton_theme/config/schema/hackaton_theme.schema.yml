@@ -1,4 +1,4 @@
-solo_subtheme.settings:
+hackaton_theme.settings:
   type: mapping
   label: 'Solo sub-theme settings'
   mapping:

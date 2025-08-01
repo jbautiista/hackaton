@@ -2,6 +2,7 @@ solo-subtheme-global:
   css:
     theme:
       css/solo-subtheme-style.css: {}
+      css/enterate.css: {}
 
   js:
     js/solo-subtheme-script.js: {}

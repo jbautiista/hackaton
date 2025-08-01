@@ -1,0 +1,98 @@
+.view-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.node--view-mode-articulo-componente {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease;
+}
+
+.node--view-mode-articulo-componente:hover {
+  transform: translateY(-5px);
+}
+
+.taxonomy-term-entity {
+  background-color: #ccf0d6;
+  color: #0c7044;
+  font-weight: bold;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0 0 8px 8px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.field--name-field-image img {
+  width: 100%;
+  height: 12rem;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.field--name-node-title h2 {
+  font-size: 1.1rem;
+  margin: 1rem;
+  color: #1c1c1c;
+}
+
+.field--name-body p {
+  font-size: 0.9rem;
+  margin: 0 1rem 1rem;
+  color: #444;
+}
+
+.field--name-node-post-date,
+.field--name-node-author,
+.field--name-node-read-time {
+  font-size: 0.75rem;
+  color: #888;
+  margin: 0 1rem;
+}
+
+.field--name-node-link {
+  margin: 1rem;
+  margin-top: auto;
+}
+
+.field--name-node-link a {
+  display: inline-block;
+  background-color: #002d72;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: background-color 0.3s ease;
+}
+
+.field--name-node-link a:hover {
+  background-color: #0044aa;
+}
+
+.contextual {
+  display: none;
+}
+
+/* Responsive ajustes */
+@media (max-width: 768px) {
+  .view-content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .view-content {
+    grid-template-columns: 1fr;
+  }
+}
