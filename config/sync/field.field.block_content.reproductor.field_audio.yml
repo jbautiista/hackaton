@@ -1,0 +1,29 @@
+uuid: 15de96ac-b80d-48b9-b9bc-5f8d139e7658
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.reproductor
+    - field.storage.block_content.field_audio
+    - media.type.audio
+id: block_content.reproductor.field_audio
+field_name: field_audio
+entity_type: block_content
+bundle: reproductor
+label: Audio
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      audio: audio
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

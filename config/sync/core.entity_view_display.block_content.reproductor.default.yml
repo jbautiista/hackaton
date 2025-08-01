@@ -1,0 +1,36 @@
+uuid: 6b071d79-122f-4db4-8bbd-ea7057b7f560
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.reproductor
+    - field.field.block_content.reproductor.body
+    - field.field.block_content.reproductor.field_audio
+  module:
+    - audio_player
+    - text
+id: block_content.reproductor.default
+targetEntityType: block_content
+bundle: reproductor
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_audio:
+    type: audio_player_mfield_formatter
+    label: above
+    settings:
+      skin: skin-one
+      palette: default-palette
+      audio_display: single-audio
+      equalizer_effect: waveform
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,25 @@
+uuid: 6e2dc4b9-0709-4571-99d9-74d991fab7bb
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:3c682a67-47b3-4d97-bb09-075474fe4010'
+  module:
+    - block_content
+  theme:
+    - hackaton_theme
+id: hackaton_theme_footerleft
+theme: hackaton_theme
+region: footer_first
+weight: 0
+provider: null
+plugin: 'block_content:3c682a67-47b3-4d97-bb09-075474fe4010'
+settings:
+  id: 'block_content:3c682a67-47b3-4d97-bb09-075474fe4010'
+  label: 'Footer left'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
