@@ -9,12 +9,60 @@ dependencies:
     - field.field.node.article.field_category
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
-    - image.style.card
     - node.type.article
   module:
+    - ds
     - image
     - text
     - user
+third_party_settings:
+  ds:
+    layout:
+      id: ds_1col
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        label: ''
+        classes:
+          layout_class: {  }
+        wrappers:
+          ds_content: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+    regions:
+      ds_content:
+        - field_category
+        - field_image
+        - node_title
+        - body
+        - node_post_date
+        - node_author
+        - node_read_time
+        - node_link
+    fields:
+      node_author:
+        plugin_id: node_author
+        weight: 5
+        label: hidden
+        formatter: author
+      node_title:
+        plugin_id: node_title
+        weight: 2
+        label: hidden
+        formatter: default
+      node_post_date:
+        plugin_id: node_post_date
+        weight: 4
+        label: hidden
+        formatter: ds_post_date_olivero_medium
+      node_link:
+        plugin_id: node_link
+        weight: 7
+        label: hidden
+        formatter: default
 _core:
   default_config_hash: br6izr-iGEu--JvNbCJNtOBpRnxpFLXfoV5y61U9Nqc
 id: node.article.articulo_componente
@@ -28,8 +76,8 @@ content:
     settings:
       trim_length: 200
     third_party_settings: {  }
-    weight: 2
-    region: content
+    weight: 3
+    region: ds_content
   field_category:
     type: entity_reference_label
     label: hidden
@@ -37,20 +85,29 @@ content:
       link: false
     third_party_settings: {  }
     weight: 0
-    region: content
+    region: ds_content
   field_image:
     type: image
     label: hidden
     settings:
       image_link: ''
-      image_style: card
+      image_style: ''
       image_loading:
-        attribute: eager
+        attribute: lazy
     third_party_settings: {  }
     weight: 1
-    region: content
+    region: ds_content
+  node_read_time:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 6
+    region: ds_content
 hidden:
   comment: true
   field_tags: true
   langcode: true
   links: true
+  reading_time: true
