@@ -23,7 +23,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: Log
+      title: Registro
       fields:
         name:
           id: name
@@ -565,7 +565,7 @@ display:
       path: admin/config/workflow/eca/log
       menu:
         type: tab
-        title: Log
+        title: Registro
         description: ''
         weight: 99
         expanded: false
@@ -591,7 +591,7 @@ display:
       path: admin/config/workflow/eca/log
       menu:
         type: normal
-        title: Log
+        title: Registro
         description: ''
         weight: 99
         expanded: false
