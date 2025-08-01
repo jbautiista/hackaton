@@ -22,6 +22,7 @@ settings:
       - '|'
       - link
       - '|'
+      - code
       - bulletedList
       - numberedList
       - '|'
